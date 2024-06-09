@@ -12,27 +12,32 @@ header {
     background: #000 url('assets/Home page background.png') no-repeat center center/cover;
 }
 
-header h1 {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
-}
-
-header p {
-    font-size: 1.5rem;
-}
-
 header .btn-primary {
-    background-color: transparent;
+    background-color: #000;
     border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    color: #fff;
 }
 
-header .btn-primary img {
-    max-width: 100%;
-    height: auto;
+.navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #1E1E1E !important;
 }
 
-.navbar-nav .nav-link img {
-    height: 24px;
+.navbar-nav .nav-link:hover {
+    color: #555 !important;
 }
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #1E1E1E !important;
+}
+
+.navbar-brand:hover {
+    color: #555 !important;
+}
+
